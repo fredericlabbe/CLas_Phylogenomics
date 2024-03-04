@@ -39,6 +39,9 @@ The script `GCskew.py` calculates the incremental and the cumulative GC skew for
 | `sequence` | Path to the FASTA sequence (required) |
 | `window`  | Window size (required) |
 
+#### Notes
+To run it, ensure that you are using Python v.3.7, and have installed the following dependencies: [os](https://docs.python.org/3/library/os.html), [Bio](https://biopython.org/), [panda](https://pandas.pydata.org/), [Bio](https://biopython.org/),[argparse](https://docs.python.org/3/library/argparse.html), and [sys](https://docs.python.org/3/library/sys.html).
+
 ___
 ## Citation
 
