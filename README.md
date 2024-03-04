@@ -5,6 +5,7 @@ Not everything is documented yet, but most scripts have some helpful information
 ## Contents
 
 * [Download Genbank assemblies](#Download-Genbank-assemblies)
+* [GC skew](#GC-skew)
 
 ## Download Genbank assemblies
 The script `GenBankScan.py` automatically downloads [Genbank](https://www.ncbi.nlm.nih.gov/genbank/) assemblies for a given search term (e.g. a species name).
@@ -23,6 +24,20 @@ The script `GenBankScan.py` automatically downloads [Genbank](https://www.ncbi.n
 
 #### Notes
 To run it, ensure that you are using Python v.3.7, and have installed the following dependencies: [os](https://docs.python.org/3/library/os.html), [Bio](https://biopython.org/), [urllib](https://docs.python.org/3/library/urllib.html), [argparse](https://docs.python.org/3/library/argparse.html), and [sys](https://docs.python.org/3/library/sys.html).
+
+## GC skew
+The script `GCskew.py` calculates the incremental and the cumulative GC skew for a given FASTA sequence according to this formula: Skew = (G - C) / (G + C).
+
+#### Example command
+`python GCskew.py --sequence '/path/to/sequence.fasta' --window 100`
+
+`python GCskew.py -h` Will print a full list of command arguments.
+
+#### Command arguments
+| Name | Description |
+| :--: | ----------- | 
+| `sequence` | Path to the FASTA sequence (required) |
+| `window`  | Window size (required) |
 
 ___
 ## Citation
