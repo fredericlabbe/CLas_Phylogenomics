@@ -64,4 +64,4 @@ ___
 ## Citation
 
 Please cite this when using these scripts:
-Pruvost O., Boyer K., Labbé F., Weishaar M., Vynisale A., Melot C., Hoareau C., Cellier G., and Ravigné V., 2024. Genetic signatures of contrasted outbreak histories of ‘*Candidatus* Liberibacter asiaticus’, the bacterium that causes citrus huanglongbing in three outermost regions of the European Union. (*in prep*)
+Pruvost, O., Boyer, K., Labbé, F., Weishaar, M., Vynisale, A., Melot, C., Hoareau, C., Cellier, G., & Ravigné, V. (2024). Genetic signatures of contrasted outbreak histories of “*Candidatus* Liberibacter asiaticus”, the bacterium that causes citrus huanglongbing, in three outermost regions of the european Union. Evolutionary Applications, 17(12), e70053. https://doi.org/10.1111/eva.70053
